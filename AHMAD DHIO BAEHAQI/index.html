@@ -1,0 +1,43 @@
+
+html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Toko Ahmad</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Daftar Produk</h1>
+    <div id="product-list">
+        <div class="product">
+            <h3>Kopi</h3>
+            <p>Harga: Rp5.000</p>
+            <button onclick="addToCart('Kopi', 5.000)">Tambahkan ke Keranjang</button>
+        </div>
+        <div class="product">
+            <h3>Roko</h3>
+            <p>Harga: Rp20.000</p>
+            <button onclick="addToCart('Roko', 20.000)">Tambahkan ke Keranjang</button>
+        </div>
+        <div class="product">
+            <h3>Gorengan</h3>
+            <p>Harga: Rp1.000</p>
+            <button onclick="addToCart('Gorengan', 1.000)">Tambahkan ke Keranjang</button>
+        </div>
+
+    </div>
+
+    <h1>Keranjang Belanja</h1>
+    <div id="cart">
+        <p>Keranjang belanja kosong.</p>
+    </div>
+
+    <h1>Checkout</h1>
+    <div id="checkout">
+        <p>Total Harga: Rp0</p>
+        <button onclick="checkout()">Bayar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
