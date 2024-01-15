@@ -1,10 +1,10 @@
 {
   "name": "uas",
   "version": "0.0.1",
-  "description": "UAS_AHMAD_DHIO_BAEHAQI",
+  "description": "UAS",
   "author": {
-    "name": "AHMAD DHIO BAEHAQI",
-    "email": "Ahmaddhiob@gmail.com"
+    "name": "Firman",
+    "email": "firmanurpratomo@gmail.com"
   },
   "license": "MIT",
   "private": true,
